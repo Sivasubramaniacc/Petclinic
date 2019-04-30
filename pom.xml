@@ -52,6 +52,14 @@
 
     </properties>
 
+<distributionManagement>
+	<repository>
+		<id>Siva</id>
+		<name>Siva</name>
+		<url>http://localhost:8081/nexus/content/repositories/Siva</url>
+	</repository>
+</distributionManagement>
+
     <dependencyManagement>
         <!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
         <dependencies>
@@ -455,13 +463,7 @@
         </plugins>
     </build>
 
-<distributionManagement>
-		<repository>
-			<id>Siva</id>
-			<name>Siva</name>
-			<url>http://localhost:8081/nexus/content/repositories/Siva</url>
-		</repository>
-	</distributionManagement>
+
 
     <reporting>
         <plugins>
